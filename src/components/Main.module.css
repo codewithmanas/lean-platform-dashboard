@@ -1,0 +1,167 @@
+/* Main */
+.main__container {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+
+
+/* Sidebar */
+
+.sidebar {
+    border-right: 1px solid black;
+}
+
+.sidebar__container hr {
+    width: 80%;
+    margin: 0 auto;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.profile__pic {
+    width: 80px;
+    height: 80px; 
+}
+
+.profile__name {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.side__nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+}
+
+.sidenav__active {
+    background-color: #83D8CE;
+}
+
+.side__nav p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.sidenav__img {
+    width: 22px;
+    height: 19px; 
+}
+
+/* MainSection Start */
+
+.main__section {
+    width: 100%;
+}
+
+.mainsection__features {
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mainsection__tilte {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.mainsection__container > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.features__header {
+    padding: 20px;
+}
+
+.features__heading {
+    margin-bottom: 10px;
+}
+
+.features__options {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.features__options p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: auto;
+}
+
+.features__options img {
+    width: 18px;
+    height: 12px; 
+}
+
+.similar__mentors {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 10px;
+    padding-right: 120px;
+}
+
+.similar__mentors>div {
+    display: flex;
+    align-items: center;
+}
+
+.similar__mentors > p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.mentor__one,
+.mentor__two,
+.mentor__three {
+    width: 80px;
+}
+
+.mentor__one {
+    margin-right: -20px;
+}
+
+.mentor__two {
+    margin-right: -20px;
+    z-index: 2;
+}
+
+.mentor__three {
+    z-index: 5;
+}
+
+.left__arrow,
+.right__arrow {
+    width: 18px;
+}
+/* MainSection End */

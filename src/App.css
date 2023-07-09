@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+/* NOTE:
+  Every changes I made in css is because my laptop screen is small (13 inch),
+  so if I use exact values given in Figma file, everything will overflow.
+*/
+
+/* App */
+
+.app {
+  font-family: 'Inter', sans-serif;
+}
